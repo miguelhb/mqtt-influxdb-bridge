@@ -1,5 +1,7 @@
 MQTT - INFLUXDB BRIDGE
 
+Based on: https://github.com/Nilhcem/home-monitoring-grafana/tree/master/02-bridge
+
 Configuration: Edit broker and InfluxDB parameters in main.py
 Start: python3 main.py
 
