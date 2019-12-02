@@ -1,0 +1,16 @@
+import requests
+
+cookies = {
+    'SESSID': 'ABCDEF',
+}
+
+headers = {
+    'Connection': 'keep-alive',
+    'Cache-Control': 'max-age=0',
+    'Origin': 'https://www.example.com',
+    'Accept-Encoding': 'gzip, deflate, br',
+}
+
+data = 'Pathfinder'
+
+response = requests.post('https://www.example.com/', headers=headers, cookies=cookies, data=data)
